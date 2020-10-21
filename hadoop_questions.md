@@ -1,4 +1,12 @@
 
+## YARN architecture
+
+* YARN provides its core services via two types of long-running daemon: **a resource manager (one per cluster)** to manage the use of resources across the cluster, and **node managers** running on all the nodes in the cluster to launch and monitor containers.
+
+* A Container executes an application-specific process with a constrained set of resources (memory, CPU, and so on).
+
+![alt text](https://github.com/saisrivatsava/big_data_interview_prep/blob/main/image.png)
+
 ## Hadoop Interview Questions
 
 * https://www.simplilearn.com/tutorials/hadoop-tutorial/hadoop-interview-questions
