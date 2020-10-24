@@ -1,3 +1,19 @@
+## Spark Applications and Architecture
+
+* Spark Applications consist of a **driver process** and a set of **executor processes**. 
+* ### Driver Process:
+* The driver process runs your main() function, sits on a node in the cluster, and is responsible for three things:
+
+* maintaining information about the Spark Application;
+
+* responding to a user’s program or input;
+
+* Analyzing, distributing, and scheduling work across the executors (discussed momentarily).
+
+* The driver process is absolutely essential—it’s the heart of a Spark Application and maintains all
+relevant information during the lifetime of the application
+
+
 ## Hive with Spark 
 
 * https://spark.apache.org/docs/latest/sql-data-sources-hive-tables.html
