@@ -39,3 +39,8 @@ Each stage contains a sequence of transformations that can be completed without 
 * Each Task is executed as a single thread in an Executor!
 
 * If your dataset has 2 Partitions, an operation such as a filter() will trigger 2 Tasks, one for each Partition.
+
+
+## Window functions
+
+* https://medium.com/expedia-group-tech/deep-dive-into-apache-spark-window-functions-7b4e39ad3c86
